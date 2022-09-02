@@ -32,14 +32,14 @@
   
                 "BYE_MSG" :{
     "description" : "TYPE BYE MSG",
-    "required" : true,
+    "required" : false,
   "value" : "*BYE BRO*"
     },
         
         "ALIVE_MSG" :{
     "description" : "TYPE ALIVE MSG",
     "required" : true,
-  "value" : "*IM ALIVE NOW* Runtime ⏳: _${runtime(process.uptime())}"
+  "value" : "*IM online NOW* Runtime ⏳: _${runtime(process.uptime())}"
     },
         
 "CALL_BLOCK" :{
@@ -75,13 +75,13 @@
 "REACT_NUMBER" :{
     "description" : "TYPE OWNER NUMBER TO OWNER REACT",
     "required" : true,
-  "value" : "947634278433"
+  "value" : "94774154414"
     },
       
 "OWNER_NUMBER" :{
     "description" : "TYPE OWNER NUMBER",
     "required" : true,
-  "value" : "947634278433"
+  "value" : "94774154414"
     },
       
 "OWNER_NUMBER2" :{
